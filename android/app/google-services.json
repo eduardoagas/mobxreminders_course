@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "410935031541",
+    "project_id": "clone-2-43296",
+    "storage_bucket": "clone-2-43296.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410935031541:android:8a8ba967068e93397937bc",
+        "android_client_info": {
+          "package_name": "com.eagas.mobxreminders_course"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410935031541-ajeesq51cq4i4bvgi8kh48l8ngmsivcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbaaJYA4zOobYsuILst_3VTo3-mKzTgtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410935031541-ajeesq51cq4i4bvgi8kh48l8ngmsivcv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "410935031541-715sak78a5opj474o8u39q5j848n64hq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.amazonclone2.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410935031541:android:ba34316b176222dc7937bc",
+        "android_client_info": {
+          "package_name": "com.example.amazonclone2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410935031541-ajeesq51cq4i4bvgi8kh48l8ngmsivcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbaaJYA4zOobYsuILst_3VTo3-mKzTgtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410935031541-ajeesq51cq4i4bvgi8kh48l8ngmsivcv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "410935031541-715sak78a5opj474o8u39q5j848n64hq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.amazonclone2.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
