@@ -113,6 +113,51 @@ mixin _$AppState on _AppState, Store {
     return _$logOutAsyncAction.run(() => super.logOut());
   }
 
+  late final _$createReminderAsyncAction =
+      AsyncAction('_AppState.createReminder', context: context);
+
+  @override
+  Future<bool> createReminder(String text) {
+    return _$createReminderAsyncAction.run(() => super.createReminder(text));
+  }
+
+  late final _$modifyAsyncAction =
+      AsyncAction('_AppState.modify', context: context);
+
+  @override
+  Future<bool> modify(Reminder reminder, {required bool isDone}) {
+    return _$modifyAsyncAction
+        .run(() => super.modify(reminder, isDone: isDone));
+  }
+
+  late final _$initializeAsyncAction =
+      AsyncAction('_AppState.initialize', context: context);
+
+  @override
+  Future<void> initialize() {
+    return _$initializeAsyncAction.run(() => super.initialize());
+  }
+
+  late final _$_loadRemindersAsyncAction =
+      AsyncAction('_AppState._loadReminders', context: context);
+
+  @override
+  Future<bool> _loadReminders() {
+    return _$_loadRemindersAsyncAction.run(() => super._loadReminders());
+  }
+
+  late final _$_registerOrLoginAsyncAction =
+      AsyncAction('_AppState._registerOrLogin', context: context);
+
+  @override
+  Future<bool> _registerOrLogin(
+      {required LoginOrRegisterFunction fn,
+      required String email,
+      required String password}) {
+    return _$_registerOrLoginAsyncAction.run(
+        () => super._registerOrLogin(fn: fn, email: email, password: password));
+  }
+
   late final _$_AppStateActionController =
       ActionController(name: '_AppState', context: context);
 
